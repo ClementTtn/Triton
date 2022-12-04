@@ -1,0 +1,215 @@
+@media all and (min-width: 1000px){
+
+    /*-----------------------Général-----------------------*/
+    html{
+        font-size: 50%;
+    }
+
+
+
+    /*------------------------Header------------------------*/
+    header{
+        font-size: 200%;
+        padding: 4rem 0rem;
+    }
+
+    #ouverture_menu{
+        width: 50px;
+        height: 50px;
+    }
+
+    #img_compte{
+        width: 50px;
+        height: 50px;
+    }
+
+    #fermeture_menu{
+        width: 50px;
+        height: 50px;
+    }
+
+    #ouvert{
+        height: 100vw;
+        width: 40vw;
+    }
+
+    nav ul li{
+        font-size: 150%;
+    }
+
+    .affichage_menu_connecte a{
+        font-size: 75%;
+    }
+
+
+
+    /*------------------------index.php------------------------*/
+    .quelques_chiffres{
+        font-size: 200%;
+    }
+
+
+
+    /*--------------------vue_artiste.php---------------------*/
+    .description_artiste p{
+        font-size: 100%;
+        margin: 3rem 10rem;
+    }
+
+    .proposition img{
+        margin-top: 0rem;
+    }
+
+
+
+    /*----------------------lieux.php------------------------*/
+    .salle p{
+        margin: 3rem 10rem;
+    }
+
+
+
+    /*-------------------studios.php---------------------*/
+    .studios p{
+        margin: 3rem 10rem;
+    }
+
+
+
+    /*-------------------activites.php---------------------*/
+    .activite p{
+        margin: 3rem 10rem;
+    }
+
+
+
+    /*-------------vue_artiste_billetterie.php--------------*/
+    .formulaire_billetterie{
+        width: 600px;
+    }
+
+    .formulaire_billetterie label {
+        margin: 10rem;
+    }
+
+
+
+    /*-------------------mon_compte.php--------------------*/
+    .mon_compte{
+        display: flex;
+    }
+
+    .mon_compte div{
+        width: 50%;
+        height: 50%;
+    }
+
+    .infos_client{
+        border: 3px solid rgba(21, 21, 30, 1);
+        padding: 1rem;
+    }
+
+    .li_mon_compte_last{
+        margin-bottom: 7.4rem;
+    }
+
+    .derniere_commande{
+        margin-top: 10rem;
+    }
+
+    .modif_infos{
+        margin-bottom: 2rem;
+    }
+
+
+
+    /*-------------------modif_infos.php-------------------*/
+    .formulaire_modif_infos{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+
+    /*---------------------commande.php---------------------*/
+    .tableau_commande{
+        width: 700px;
+        margin: 10rem auto;
+    }
+
+    .tableau_commande th{
+        padding: 3rem 15rem;
+    }
+
+
+
+    /*---------------------panier.php---------------------*/
+    .tableau_panier{
+        margin: 10rem;
+    }
+
+    .tableau_panier th{
+        padding: 3rem 15rem;
+    }
+
+    .bouton_quantite img{
+        width: 20px;
+        height: 20px;
+    }
+
+    #panier_vide{
+        margin: 15rem auto;
+        width: 200px;
+        height: 200px;
+    }
+
+    .redirection_billetterie{
+        margin-top: 10rem;
+    }
+
+
+
+    /*----------------------Footer------------------------*/
+    footer{
+        font-size: 150%;
+    }
+
+    .horaire_footer{
+        font-size: 50%;
+    }
+
+    .footer_flex{
+        display: flex;
+    }
+
+    footer .pages_footer{
+        width: 33%;
+        height: 33%;
+    }
+
+    footer .info_footer{
+        width: 33%;
+        height: 33%;
+    }
+
+    footer .reseaux_footer{
+        width: 33%;
+        height: 33%;
+    }
+
+    .projet_footer{
+        font-size: 40%;
+    }
+
+
+
+    /*-----------------------Admin-------------------------*/
+
+    /*---------------------index.php-----------------------*/
+    .liens_admin{
+        flex-direction: row;
+    }
+}

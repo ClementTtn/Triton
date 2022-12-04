@@ -1,0 +1,887 @@
+/*-----------------------Général-----------------------*/
+html{
+    font-family: 'Rubik', sans-serif;
+    font-size: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 3rem;
+    background-color: white;
+    color: black;
+    text-decoration : none;
+}
+
+
+
+/*------------------------Header------------------------*/
+header{
+    position: fixed;
+    display: flex;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: rgba(21, 21, 30, 1);
+    justify-content: space-around;
+    padding: 6rem 0rem;
+    font-size: 5rem;
+}
+
+header a{                                                                                                               /* Mise en page du texte du nav */
+    color: white;
+    text-decoration: none;
+}
+
+/* Burger */
+#ouverture_menu{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 75px;
+    height: 75px;
+}
+
+#img_compte{
+    width: 75px;
+    height: 75px;
+}
+
+nav{                                                                                                                    /* Mise en page du nav en position droite */
+    transition: all 0.75s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: -100vw;
+    height: 100vh;
+    width: 100vw;
+    font-size: 2.5rem;
+    background-color: rgba(21, 21, 30, 1);
+    opacity: 50%;
+}
+
+#ouvert{                                                                                                                /* Changement de la position du menu burger */
+    left: 0;
+    opacity: 100%;
+}
+
+#icone_fermeture{                                                                                                       /* Enlever la première bordure du menu sous le logo de fermeture du menu */
+    border: none;
+}
+
+#fermeture_menu{
+    cursor: pointer;
+    width: 75px;
+    height: 75px;
+}
+
+nav ul li{                                                                                                              /* Mise en page des éléments du menu en position gauche */
+    border-bottom: solid 1px white;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: row;                                                                                                /* Mettre row-reverse pour droite */
+    margin: 1rem 3rem;
+    font-size: 5rem;
+}
+
+header nav li:last-of-type{                                                                                             /* Enlever la dernière bordure du menu sous le dernier lien */
+    border: none;
+}
+
+li a{                                                                                                                   /* Taille du texte du menu */
+    font-size: 50%;
+}
+
+.footer_burger{
+    margin-top: 15rem;
+    text-align: center;
+}
+
+
+
+/*------------------------Main------------------------*/
+h2{
+    text-align: center;
+    font-size: 7rem;
+}
+
+.h2_sous_nav{
+    margin-top: 30rem;
+}
+
+h3{
+    text-align: center;
+}
+
+
+
+/*------------------------index.php------------------------*/
+/*Bouton programmation*/
+.bouton_prog{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40rem;
+}
+
+.bouton_prog a{
+    color: white;
+    text-decoration: none;
+    background-color: rgba(21, 21, 30, 1);
+    padding: 2rem;
+}
+
+/*div fond_fonce*/
+.quelques_chiffres{
+    text-align: center;
+}
+
+.quelques_chiffres li{
+    margin-bottom: 20rem;
+}
+
+.fond_fonce{
+    background-color: rgba(21, 21, 30, 1);
+    color: white;
+    padding: 5rem 0rem;
+}
+
+.fond_fonce h3{
+    margin-bottom: 20rem;
+}
+
+.h3_index{
+    margin-top: 10rem;
+}
+
+
+.reseaux{
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+    filter: invert(100%);
+}
+
+.reseaux img{
+    padding: 0rem 4rem;
+}
+
+.message_client{
+    margin-bottom: 5rem;
+}
+
+.affichage_menu_connecte {
+    margin-bottom: 4rem;
+}
+
+
+
+/*------------------programmation_affichage.php--------------------*/
+.collec_img_concert{
+    font-size: 3.5rem;
+    margin-top: 10rem;
+}
+
+.collec_img_concert img{
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+.artiste_prog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.date_prog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.h3_prog{
+    margin-top: 10rem;
+}
+
+.redirection_vue_artiste{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.redirection_vue_artiste a{
+    color: white;
+    text-decoration: none;
+    background-color: rgba(21, 21, 30, 1);
+    padding: 2rem;
+}
+
+
+
+/*---------------------vue_artiste.php----------------------*/
+.h2_vue_artiste{
+    margin-top: 10rem;
+}
+
+.description_artiste{
+    font-size: 3.5rem;
+}
+
+.description_artiste img{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.description_artiste p{
+    text-align: justify;
+    padding: 3rem;
+    font-size: 2rem;
+    line-height: 1.5em;
+}
+
+.description_artiste a{
+    text-align: center;
+}
+
+.proposition h2{
+    margin: 7rem 0rem;
+}
+
+.proposition img{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.proposition a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.bouton_billetterie{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.bouton_billetterie a{
+    color: white;
+    text-decoration: none;
+    background-color: rgba(21, 21, 30, 1);
+    padding: 2rem;
+}
+
+
+
+/*----------------------lieux.php------------------------*/
+.h2_lieux{
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+}
+
+.h3_lieux{
+    margin-bottom: 2rem;
+}
+
+.salle p{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: justify;
+    margin: 0rem 2rem;
+    margin-bottom: 5rem;
+}
+
+.salle img{
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+/*-------------------studios.php---------------------*/
+.studios p{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: justify;
+    margin: 3rem 2rem;
+}
+
+.studios img{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.nom_studio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.trad_studio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70%;
+    margin-bottom: 4rem;
+}
+
+.studios h3{
+    margin-top: 15rem;
+}
+
+.studios a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/*-------------------activites.php---------------------*/
+.activite h3{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.activite p{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: justify;
+    margin: 0rem 2rem;
+    margin-bottom: 5rem;
+}
+
+.activite img{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.detail_visite{
+    font-size: 40%;
+}
+
+
+.reserv_activite{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: justify;
+    margin: 0rem 2rem;
+    margin-top: 15rem;
+}
+
+.reserv_activite a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/*---------------------infos.php-----------------------*/
+.info_adresse h3{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.info_adresse p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin: 0rem 2rem;
+    margin-bottom: 5rem;
+}
+
+.info_formulaire h3{
+    margin-bottom: 4rem;
+}
+
+.info_formulaire form{
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 3px solid rgba(21, 21, 30, 1);
+    border-radius: 1em;
+    font-size: 70%;
+}
+
+.info_formulaire form div + div{
+    margin-top: 1rem;
+}
+
+.info_formulaire input, textarea{
+    font: 1rem Rubik;
+}
+
+.info_formulaire textarea{
+    vertical-align: top;
+    height: 5rem;
+    width: 25rem;
+}
+
+
+
+/*----------------vue_artiste_billetterie.php-----------------*/
+.tarif_billetterie{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.tarif_billetterie_precision{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10rem;
+    font-size: 50%;
+}
+
+.formulaire_billetterie{
+    border: 3px solid rgba(21, 21, 30, 1);
+    width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.formulaire_billetterie label {
+    margin: 4rem;
+}
+
+.formulaire_billetterie select{
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+
+
+/*----------------------Panier------------------------*/
+.tableau_panier{
+    margin: 5rem 1.5rem;
+    border-collapse: collapse;
+}
+
+.tableau_panier th, td {
+    border: 3px solid rgba(21, 21, 30, 1);
+}
+
+.tableau_panier th{
+    padding: 2rem;
+}
+
+.tableau_panier td{
+    padding: 2rem;
+    text-align: center;
+}
+
+.tableau_panier a{
+    color: black;
+    text-decoration: none;
+}
+
+.montant_panier{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.bouton_quantite{
+    background-color: white;
+    border: none;
+}
+
+.bouton_quantite img{
+    width: 35px;
+    height: 35px;
+}
+
+.formulaire_panier select{
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+.bouton_commande{
+    display: flex;
+    justify-content: center;
+    margin: 20rem 0;
+}
+
+.bouton_commande a{
+    color: white;
+    text-decoration: none;
+    background-color: rgba(21, 21, 30, 1);
+    padding: 2rem;
+}
+
+#panier_vide{
+    display: block;
+    margin: 20rem auto;
+    width: 300px;
+    height: 300px;
+}
+
+.redirection_billetterie{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    margin-top: 5rem;
+}
+
+#stripe{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+/*----------------------paiement.php------------------------*/
+.bouton_espace_client{
+    display: flex;
+    justify-content: center;
+    margin-top: 20rem;
+}
+
+.bouton_espace_client a{
+    color: white;
+    text-decoration: none;
+    background-color: rgba(21, 21, 30, 1);
+    padding: 2rem;
+}
+
+
+
+/*---------------------mon_compte.php-----------------------*/
+.h2_sous_nav_monCompte{
+    font-size: 170%;
+    margin-top: 25rem;
+}
+
+.h3_mon_compte{
+    font-weight: bold;
+}
+
+.infos_compte{
+    margin-top: 10rem;
+}
+
+.infos_client{
+    margin: 3rem;
+    border: 3px solid rgba(21, 21, 30, 1);
+    padding: 1rem;
+}
+
+.li_mon_compte{
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+.modif_infos{
+    margin: 8rem 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+
+
+/*---------------------commande.php---------------------*/
+.tableau_commande{
+    margin: 5rem 1.5rem;
+    border-collapse: collapse;
+}
+
+.tableau_commande th, td {
+    border: 3px solid rgba(21, 21, 30, 1);
+}
+
+.tableau_commande th{
+    padding: 2rem;
+    font-size: 85%;
+}
+
+.tableau_commande td{
+    padding: 2rem;
+    text-align: center;
+    font-size: 70%;
+}
+
+.tableau_commande a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/*-------------------modif_infos.php-------------------*/
+.formulaire_modif_infos{
+    margin-top: 10rem;
+}
+
+.formulaire_modif_infos div{
+    margin-bottom: 4rem;
+}
+
+.formulaire_modif_infos form{
+    margin: 0 auto;
+    width: 500px;
+    padding: 1em;
+    border: 3px solid rgba(21, 21, 30, 1);
+    margin-bottom: 2rem;
+}
+
+.formulaire_modif_infos form div + div{
+    margin-top: 1rem;
+}
+
+.formulaire_modif_infos input{
+    font: 1.5rem Rubik;
+    padding: 0.5rem 1rem;
+    width: 400px;
+}
+
+.formulaire_modif_infos textarea{
+    vertical-align: top;
+    height: 5rem;
+    width: 25rem;
+}
+
+.formulaire_modif_infos a{
+    font-size: 70%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+.formulaire_modif_infos input{
+    margin-bottom: 3rem;
+}
+
+.suppression_compte{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+
+
+/*----------------------Footer------------------------*/
+footer{
+    color: white;
+    background-color: rgba(21, 21, 30, 1);
+    margin-top: 20rem;
+    text-align: center;
+}
+
+.pages_footer{
+    font-size: 70%;
+    margin-bottom: 10rem;
+}
+
+.pages_footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer h4{
+    margin-top: 5rem;
+}
+
+.triton_footer{
+    text-decoration: none;
+    color: white;
+}
+
+.contact_footer p{
+    font-size: 50%;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.horaire_footer{
+    font-size: 30%;
+    padding: 3rem 0rem;
+}
+
+.reseaux_footer{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.reseaux_footer a{
+    color: rgba(21, 21, 30, 1);
+}
+
+.reseaux_footer img{
+    padding: 0rem 2rem;
+}
+
+.projet_footer{
+    font-size: 20%;
+    margin-top: 2rem;
+}
+
+.projet_footer a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/*-----------------------Admin-------------------------*/
+
+/*---------------------index.php-----------------------*/
+.liens_admin{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.liens_admin_enfant{
+    border: 3px solid rgba(21, 21, 30, 1);
+    margin: 4rem auto;
+    padding: 3rem;
+    width: 600px;
+
+}
+
+.liens_admin_enfant .a_admin{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: 110%;
+}
+
+.redirection_admin{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.redirection_admin a{
+    color: white;
+    text-decoration: none;
+    background-color: rgba(21, 21, 30, 1);
+    padding: 2rem;
+}
+
+.redirection_admin_acceuil{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+}
+
+.redirection_admin_acceuil a{
+    color: white;
+    text-decoration: none;
+    background-color: rgba(21, 21, 30, 1);
+    padding: 2rem;
+}
+
+
+
+/*-----------Formulaire général----------*/
+.formulaire{
+    margin-top: 10rem;
+}
+
+.formulaire div{
+    margin-bottom: 4rem;
+}
+
+.formulaire form{
+    margin: 0 auto;
+    width: 500px;
+    padding: 1em;
+    border: 3px solid rgba(21, 21, 30, 1);
+    margin-bottom: 2rem;
+}
+
+.formulaire form div + div{
+    margin-top: 1rem;
+}
+
+.formulaire input{
+    font: 1.5rem Rubik;
+    padding: 0.5rem 1rem;
+    width: 400px;
+}
+
+.formulaire textarea{
+    vertical-align: top;
+    height: 5rem;
+    width: 25rem;
+}
+
+.formulaire a{
+    font-size: 70%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+.bouton{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.bouton input{
+    margin-top: 3rem;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    background-color: rgba(21, 21, 30, 1);
+    color: white;
+    padding: 0.5rem 2rem;
+}
+
+.formulaire input{
+    margin-bottom: 3rem;
+}
+
+.mailExiste{
+    margin-bottom: 3rem;
+}
+
+.informations_incorrectes{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.mailTo{
+    color: black;
+}
+
+.mailToInfo{
+    color: black;
+    margin-top: 10rem;
+}
