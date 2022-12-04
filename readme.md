@@ -6,7 +6,7 @@ Sur ce site, l'utilisateur sera capable de découvrir le lieu et ses prestations
 Il sera également capable de réserver une place de concert.
 
 <p align="center">
-<img src=Triton_rd.png width = "410" height = "125">
+<img src=Triton_rd.png width = "600" height = "345">
 </p>
 
 # SOURCES
