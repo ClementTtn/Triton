@@ -1,9 +1,8 @@
 # Projet Web S3
-Ce projet, réalisé dans le cadre d'un travail demandé au cours du 3ème semestre de mon cursus universitaire, 
-est un site internet de salle de concert.
+This project, carried out as part of a work requested during the 3rd semester of my university course, is a concert hall website.
 
-Sur ce site, l'utilisateur sera capable de découvrir le lieu et ses prestations qu'il propose. 
-Il sera également capable de réserver une place de concert.
+On this site, the user will be able to discover the place and the services it offers.
+He will also be able to reserve a concert ticket.
 
 <p align="center">
 <img src=Triton_rd.png width = "600" height = "345">
@@ -12,7 +11,7 @@ Il sera également capable de réserver une place de concert.
 # SOURCES
 programmation.php :
 
-- Images artistes proviennent de Apple Music
+- Artist images are from Apple Music
 
 [Polo & Pan](https://is2-ssl.mzstatic.com/image/thumb/Features115/v4/4a/e0/f6/4ae0f62f-38d4-8f45-7366-40577f6b4c1d/pr_source.png/2400x933vf-60.jpg "")
 
@@ -34,7 +33,7 @@ programmation.php :
 
 vue_artiste.php :
 
-Présentation des artistes, venant de Spotify, traduites de l'anglais par Google Traduction.
+Presentation of the artists, coming from Spotify, translated from English by Google Translate.
 
 [Polo & Pan](https://open.spotify.com/artist/45yEuthJ9yq1rNXAOpBnqM "")
 
