@@ -5,8 +5,9 @@ est un site internet de salle de concert.
 Sur ce site, l'utilisateur sera capable de découvrir le lieu et ses prestations qu'il propose. 
 Il sera également capable de réserver une place de concert.
 
-
-<img src=Triton.png width = "410" height = "125">
+<p align="center">
+<img src=Triton_rd.png width = "410" height = "125">
+</p>
 
 # SOURCES
 programmation.php :
